@@ -17,7 +17,7 @@ app.on("ready", () => {
   });
 
   // mainWindow.loadFile(path.join(__dirname, "static", "index.html"));
-  mainWindow.loadURL("http://localhost:3000/hud");
+  mainWindow.loadURL("http://localhost:1349/hud");
 
   // Enable pass-through for mouse clicks on transparent parts
   mainWindow.setIgnoreMouseEvents(true, { forward: true });
